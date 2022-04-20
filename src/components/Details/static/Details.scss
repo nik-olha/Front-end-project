@@ -1,0 +1,23 @@
+.details {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  align-self: center;
+  max-width: 550px;
+  padding: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 14px;
+}
+
+.favorites {
+  display: flex;
+  justify-content: flex-start;
+}

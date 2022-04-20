@@ -1,0 +1,16 @@
+.cards {
+    min-height: 550px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.card {
+    margin: 15px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 14px;
+}

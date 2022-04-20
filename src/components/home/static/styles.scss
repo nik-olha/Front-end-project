@@ -1,0 +1,14 @@
+@use "mixins";
+
+.table {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  @include mixins.respond(medium) {
+    flex-direction: column;
+  }
+}
+
+.faculty {
+  padding-top: 2vmin;
+}
